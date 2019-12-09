@@ -3,7 +3,7 @@ class Meal
   
   @@all = []
   
-  def initialize(waiter, years, toal, tip)
+  def initialize(waiter, years, total, tip)
     @waiter = name
     @customer = years 
     @total = total 
