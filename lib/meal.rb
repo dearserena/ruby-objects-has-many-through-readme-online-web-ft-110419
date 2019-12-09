@@ -1,11 +1,13 @@
 class Meal
- attr_accessor :waiter, :years 
+ attr_accessor :waiter, :years, :toal, :tip 
   
   @@all = []
   
-  def initialize(name, age)
-    @name = name
-    @years = years 
+  def initialize(waiter, years, toal, tip)
+    @waiter = name
+    @customer = years 
+    @total = total 
+    @tip = tip
     @@all << self 
   end 
   
